@@ -1,6 +1,28 @@
-# Next.js + Tailwind CSS Example
+# Spotify clone
+
+Using:
+
+- Next.js 12
+- Tailwind CSS
+- NextAuth
+- Recoil
+
+Based on: Next.js + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+
+## Env variables
+
+Set env variables in for exmaple `.env.local` file:
+
+```
+NEXTAUTH_URL=[url on website to enable openid login - ex. http://localhost:3000]
+NEXT_PUBLIC_CLIENT_SECRET=[spotify client secret]
+NEXT_PUBLIC_CLIENT_ID=[spotify client id]
+JWT_SECRET=[secret value for jwt encyrption]
+```
+
+Get the spotify credentials from https://developer.spotify.com/dashboard/
 
 ## Preview
 
